@@ -1033,7 +1033,9 @@
     "Viral",
     "Bakery",
     "Icon"
-   ]
+   ],
+   "photo": "lune.jpg",
+   "credit": "Photo: Lune Croissanterie"
   },
   {
    "id": "market-lane-coffee",
