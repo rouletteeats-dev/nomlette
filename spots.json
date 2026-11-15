@@ -1,0 +1,1256 @@
+{
+ "suburbs": {
+  "CBD": [
+   -37.8136,
+   144.9631
+  ],
+  "Fitzroy": [
+   -37.7982,
+   144.978
+  ],
+  "Collingwood": [
+   -37.8025,
+   144.987
+  ],
+  "Richmond": [
+   -37.824,
+   144.993
+  ],
+  "Cremorne": [
+   -37.827,
+   144.992
+  ],
+  "South Yarra": [
+   -37.839,
+   144.992
+  ],
+  "Carlton": [
+   -37.7987,
+   144.9668
+  ],
+  "Carlton North": [
+   -37.786,
+   144.968
+  ],
+  "Prahran": [
+   -37.849,
+   144.992
+  ],
+  "Windsor": [
+   -37.858,
+   144.9937
+  ],
+  "Brunswick": [
+   -37.7701,
+   144.9611
+  ],
+  "South Melbourne": [
+   -37.8305,
+   144.9584
+  ],
+  "North Melbourne": [
+   -37.7992,
+   144.949
+  ],
+  "East Melbourne": [
+   -37.8137,
+   144.9838
+  ],
+  "Hawthorn": [
+   -37.823,
+   145.0378
+  ]
+ },
+ "popular": [
+  "spaghetti-club",
+  "naau",
+  "lune-croissanterie",
+  "gimlet",
+  "embla",
+  "higher-ground",
+  "tipo-00",
+  "supernormal"
+ ],
+ "spots": [
+  {
+   "id": "spaghetti-club",
+   "name": "Spaghetti Club",
+   "suburb": "Richmond",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "bougie",
+    "casual"
+   ],
+   "budget": "splash",
+   "cuisine": "Southern Italian",
+   "price": "~$50–$80 pp",
+   "sched": "ld",
+   "desc": "Southern Italian family cooking on Swan Street, built around pasta.",
+   "tags": [
+    "Italian",
+    "New 2026"
+   ],
+   "new": true,
+   "addr": "Swan St, Richmond"
+  },
+  {
+   "id": "harriot",
+   "name": "Harriot",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "bougie",
+    "send"
+   ],
+   "budget": "send",
+   "cuisine": "Modern European",
+   "price": "~$90–$130 pp",
+   "sched": "dinner",
+   "desc": "Refined European bistro from the team behind Tipo 00 and Osteria Ilaria.",
+   "tags": [
+    "European",
+    "Date night"
+   ]
+  },
+  {
+   "id": "roma-ristorante",
+   "name": "Roma Ristorante",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "bougie",
+    "casual"
+   ],
+   "budget": "send",
+   "cuisine": "Roman Italian",
+   "price": "~$80–$120 pp",
+   "sched": "ld",
+   "desc": "Roman-style trattoria on Collins Street.",
+   "tags": [
+    "Italian",
+    "Pasta"
+   ],
+   "addr": "Collins St, Melbourne"
+  },
+  {
+   "id": "cleo-rooftop",
+   "name": "Cleo Rooftop",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "casual",
+    "date",
+    "group",
+    "brunch"
+   ],
+   "budget": "splash",
+   "cuisine": "Eastern Mediterranean",
+   "price": "~$55–$90 pp",
+   "sched": "allday",
+   "desc": "Eastern Mediterranean food and drinks on a CBD hotel rooftop.",
+   "tags": [
+    "Rooftop",
+    "New 2025"
+   ],
+   "new": true
+  },
+  {
+   "id": "yiaga",
+   "name": "Yiaga",
+   "suburb": "East Melbourne",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "bougie",
+    "send"
+   ],
+   "budget": "send",
+   "cuisine": "Modern Australian",
+   "price": "~$160–$220 pp",
+   "sched": "dinner",
+   "desc": "Hugh Allen's fine-dining restaurant inside Fitzroy Gardens, with an Australia-focused menu.",
+   "tags": [
+    "Fine dining",
+    "New 2025"
+   ],
+   "new": true,
+   "lat": -37.813,
+   "lng": 144.98
+  },
+  {
+   "id": "garfield-pizzeria",
+   "name": "Garfield Pizzeria",
+   "suburb": "Carlton",
+   "type": "rest",
+   "vibe": [
+    "casual",
+    "date",
+    "group"
+   ],
+   "budget": "splash",
+   "cuisine": "Pizza",
+   "price": "~$40–$70 pp",
+   "sched": "ld",
+   "desc": "Pizzeria on Lygon Street blending Italian, Japanese and Australian pizza styles.",
+   "tags": [
+    "Pizza",
+    "New 2026"
+   ],
+   "new": true,
+   "addr": "293-297 Lygon St, Carlton"
+  },
+  {
+   "id": "champagne-problems",
+   "name": "Champagne Problems",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "bougie",
+    "send"
+   ],
+   "budget": "send",
+   "cuisine": "Champagne bar & dining",
+   "price": "~$80–$130 pp",
+   "sched": "barlate",
+   "desc": "Champagne-focused bar and dining room in the CBD.",
+   "tags": [
+    "Champagne",
+    "Bar"
+   ]
+  },
+  {
+   "id": "ho-jiak-melbourne",
+   "name": "Ho Jiak Melbourne",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "casual",
+    "group",
+    "date"
+   ],
+   "budget": "splash",
+   "cuisine": "Malaysian",
+   "price": "~$45–$75 pp",
+   "sched": "ld",
+   "desc": "Three-storey Malaysian restaurant from Junda Khoo, of Sydney's Ho Jiak.",
+   "tags": [
+    "Malaysian",
+    "Groups"
+   ]
+  },
+  {
+   "id": "embla",
+   "name": "Embla",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "bougie",
+    "casual"
+   ],
+   "budget": "send",
+   "cuisine": "Wine bar & woodfire",
+   "price": "~$70–$110 pp",
+   "sched": "dinner",
+   "desc": "Wine bar and woodfire kitchen on Russell Street.",
+   "tags": [
+    "Wine bar",
+    "Woodfire"
+   ]
+  },
+  {
+   "id": "marmelo",
+   "name": "Marmelo",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "bougie"
+   ],
+   "budget": "send",
+   "cuisine": "Portuguese",
+   "price": "~$80–$120 pp",
+   "sched": "dinner",
+   "desc": "Portuguese restaurant at Melbourne Place, with basement bar Mr Mills downstairs.",
+   "tags": [
+    "Portuguese",
+    "Hotel dining"
+   ]
+  },
+  {
+   "id": "florentino",
+   "name": "Florentino",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "bougie",
+    "send"
+   ],
+   "budget": "send",
+   "cuisine": "Italian",
+   "price": "~$140–$200 pp",
+   "sched": "ld",
+   "desc": "Long-running Italian restaurant on Bourke Street.",
+   "tags": [
+    "Italian",
+    "Fine dining"
+   ]
+  },
+  {
+   "id": "marion",
+   "name": "Marion",
+   "suburb": "Fitzroy",
+   "type": "rest",
+   "vibe": [
+    "casual",
+    "date"
+   ],
+   "budget": "splash",
+   "cuisine": "Wine bar",
+   "price": "~$45–$75 pp",
+   "sched": "dinner",
+   "desc": "Wine bar and restaurant on Gertrude Street.",
+   "tags": [
+    "Hidden gem",
+    "Wine bar"
+   ]
+  },
+  {
+   "id": "chin-chin",
+   "name": "Chin Chin",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "group",
+    "casual"
+   ],
+   "budget": "splash",
+   "cuisine": "South-East Asian",
+   "price": "~$45–$75 pp",
+   "sched": "ld",
+   "desc": "Big, buzzy South-East Asian share-plate restaurant on Flinders Lane.",
+   "tags": [
+    "Viral",
+    "Share plates",
+    "Groups"
+   ]
+  },
+  {
+   "id": "tipo-00",
+   "name": "Tipo 00",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "bougie"
+   ],
+   "budget": "send",
+   "cuisine": "Handmade pasta",
+   "price": "~$70–$100 pp",
+   "sched": "dinner",
+   "desc": "Handmade pasta on Little Bourke Street.",
+   "tags": [
+    "Pasta",
+    "Book ahead"
+   ]
+  },
+  {
+   "id": "gimlet",
+   "name": "Gimlet",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "bougie",
+    "send"
+   ],
+   "budget": "send",
+   "cuisine": "European",
+   "price": "~$120–$180 pp",
+   "sched": "dinner",
+   "desc": "Andrew McConnell's European dining room on Russell Street.",
+   "tags": [
+    "Fine dining",
+    "European"
+   ]
+  },
+  {
+   "id": "grill-americano",
+   "name": "Grill Americano",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "group",
+    "bougie",
+    "send"
+   ],
+   "budget": "send",
+   "cuisine": "Steakhouse",
+   "price": "~$90–$140 pp",
+   "sched": "dinner",
+   "desc": "Steakhouse in the CBD.",
+   "tags": [
+    "Steakhouse"
+   ]
+  },
+  {
+   "id": "supernormal",
+   "name": "Supernormal",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "casual",
+    "group",
+    "date"
+   ],
+   "budget": "splash",
+   "cuisine": "Pan-Asian",
+   "price": "~$50–$75 pp",
+   "sched": "ld",
+   "desc": "Andrew McConnell's Pan-Asian restaurant on Flinders Lane, known for its lobster roll.",
+   "tags": [
+    "Viral",
+    "Pan-Asian",
+    "Lobster roll"
+   ]
+  },
+  {
+   "id": "anchovy",
+   "name": "Anchovy",
+   "suburb": "Richmond",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "bougie",
+    "send"
+   ],
+   "budget": "send",
+   "cuisine": "Vietnamese-inspired",
+   "price": "~$100–$150 pp",
+   "sched": "dinner",
+   "desc": "Vietnamese-inspired modern restaurant on Bridge Road.",
+   "tags": [
+    "Modern Vietnamese"
+   ]
+  },
+  {
+   "id": "aru",
+   "name": "Aru",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "date",
+    "bougie",
+    "casual"
+   ],
+   "budget": "send",
+   "cuisine": "Modern Australian",
+   "price": "~$75–$110 pp",
+   "sched": {
+    "byDay": {
+     "0": [],
+     "1": [
+      [
+       1050,
+       1320
+      ]
+     ],
+     "2": [
+      [
+       720,
+       900
+      ],
+      [
+       1050,
+       1320
+      ]
+     ],
+     "3": [
+      [
+       720,
+       900
+      ],
+      [
+       1050,
+       1320
+      ]
+     ],
+     "4": [
+      [
+       720,
+       900
+      ],
+      [
+       1050,
+       1320
+      ]
+     ],
+     "5": [
+      [
+       720,
+       900
+      ],
+      [
+       1050,
+       1320
+      ]
+     ],
+     "6": [
+      [
+       720,
+       900
+      ],
+      [
+       1050,
+       1320
+      ]
+     ]
+    }
+   },
+   "desc": "Native Australian ingredients with Asian spices, cooked over a woodfired hearth.",
+   "tags": [
+    "Woodfire",
+    "Modern Australian"
+   ],
+   "hrs": "Lunch Tue–Sat 12–3pm · Dinner Mon–Sat 5:30–10pm"
+  },
+  {
+   "id": "hanoi-hannah",
+   "name": "Hanoi Hannah",
+   "suburb": "Windsor",
+   "type": "rest",
+   "vibe": [
+    "casual",
+    "group"
+   ],
+   "budget": "mid",
+   "cuisine": "Vietnamese",
+   "price": "~$25–$45 pp",
+   "sched": "barlate",
+   "desc": "Lively Vietnamese-inspired restaurant and bar in Windsor.",
+   "tags": [
+    "Vietnamese",
+    "Groups"
+   ]
+  },
+  {
+   "id": "cumulus-inc",
+   "name": "Cumulus Inc",
+   "suburb": "CBD",
+   "type": "rest",
+   "vibe": [
+    "casual",
+    "date",
+    "brunch"
+   ],
+   "budget": "splash",
+   "cuisine": "Modern Australian",
+   "price": "~$45–$70 pp",
+   "sched": "allday",
+   "desc": "Andrew McConnell's all-day restaurant on Flinders Lane.",
+   "tags": [
+    "All-day",
+    "Wine bar"
+   ]
+  },
+  {
+   "id": "mr-miyagi",
+   "name": "Mr Miyagi",
+   "suburb": "Windsor",
+   "type": "rest",
+   "vibe": [
+    "casual",
+    "group",
+    "brunch"
+   ],
+   "budget": "mid",
+   "cuisine": "Japanese-inspired bar",
+   "price": "~$30–$50 pp",
+   "sched": "barlate",
+   "desc": "Japanese-inspired bar and eatery in Windsor.",
+   "tags": [
+    "Cocktails",
+    "Groups"
+   ]
+  },
+  {
+   "id": "naau",
+   "name": "Naau",
+   "suburb": "CBD",
+   "type": "matcha",
+   "vibe": [
+    "matcha",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Matcha cafe",
+   "price": "~$8–$14",
+   "sched": "matcha",
+   "desc": "Matcha-focused cafe in the CBD.",
+   "tags": [
+    "Matcha"
+   ]
+  },
+  {
+   "id": "balibola",
+   "name": "Balibola",
+   "suburb": "CBD",
+   "type": "matcha",
+   "vibe": [
+    "matcha",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Matcha kiosk",
+   "price": "~$7–$14",
+   "sched": {
+    "wd": [
+     480,
+     1020
+    ],
+    "we": [
+     600,
+     960
+    ]
+   },
+   "desc": "Kiosk from a Bali matcha cafe: lattes in flavours like sweet potato, tiramisu and strawberry, plus a Basque matcha cheesecake.",
+   "tags": [
+    "Matcha",
+    "Dessert"
+   ],
+   "addr": "7/259 Collins St, Melbourne",
+   "hrs": "Mon–Fri 8am–5pm · Sat–Sun 10am–4pm"
+  },
+  {
+   "id": "matcha-mate",
+   "name": "Matcha Mate",
+   "suburb": "Collingwood",
+   "type": "matcha",
+   "vibe": [
+    "matcha",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Matcha bar",
+   "price": "~$7–$12",
+   "sched": "matcha",
+   "desc": "Melbourne matcha brand with a store in Collingwood.",
+   "tags": [
+    "Matcha",
+    "Local brand"
+   ]
+  },
+  {
+   "id": "meet-forest",
+   "name": "Meet Forest",
+   "suburb": "South Yarra",
+   "type": "matcha",
+   "vibe": [
+    "matcha",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Matcha cafe",
+   "price": "~$8–$14",
+   "sched": "matcha",
+   "desc": "Matcha cafe in South Yarra.",
+   "tags": [
+    "Matcha"
+   ]
+  },
+  {
+   "id": "hikari",
+   "name": "Hikari",
+   "suburb": "CBD",
+   "type": "matcha",
+   "vibe": [
+    "matcha",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Japanese cafe & homewares",
+   "price": "~$7–$13",
+   "sched": "matcha",
+   "desc": "Pint-sized Swanston Street cafe pairing matcha lattes and single-origin Japanese coffee with Japanese pottery and glassware.",
+   "tags": [
+    "Hidden gem",
+    "Matcha",
+    "Japanese"
+   ],
+   "addr": "317 Swanston St, Melbourne"
+  },
+  {
+   "id": "matcha-kobo",
+   "name": "Matcha Kobo",
+   "suburb": "CBD",
+   "type": "matcha",
+   "vibe": [
+    "matcha",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Matcha house",
+   "price": "~$7–$15",
+   "sched": "matcha",
+   "desc": "Matcha house on Lonsdale Street that mills its matcha in-house on stone.",
+   "tags": [
+    "Hidden gem",
+    "Matcha",
+    "Stone-milled"
+   ],
+   "addr": "Lonsdale St, Melbourne"
+  },
+  {
+   "id": "nimbo",
+   "name": "Nimbo",
+   "suburb": "CBD",
+   "type": "matcha",
+   "vibe": [
+    "matcha",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Matcha cafe",
+   "price": "~$8–$14",
+   "sched": "matcha",
+   "desc": "Matcha cafe on Hardware Street in the CBD.",
+   "tags": [
+    "Matcha"
+   ]
+  },
+  {
+   "id": "ima-asa-yoru",
+   "name": "Ima Asa Yoru",
+   "suburb": "Brunswick",
+   "type": "matcha",
+   "vibe": [
+    "matcha",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Japanese cafe",
+   "price": "~$10–$20",
+   "sched": "brunch",
+   "desc": "Japanese cafe in Brunswick serving matcha and brunch.",
+   "tags": [
+    "Hidden gem",
+    "Japanese",
+    "Matcha"
+   ]
+  },
+  {
+   "id": "suupaa",
+   "name": "Suupaa",
+   "suburb": "Cremorne",
+   "type": "matcha",
+   "vibe": [
+    "matcha",
+    "casual",
+    "cafe"
+   ],
+   "budget": "cheap",
+   "cuisine": "Japanese konbini takeaway",
+   "price": "~$9–$18",
+   "sched": {
+    "wd": [
+     420,
+     960
+    ],
+    "we": [
+     480,
+     960
+    ],
+    "off": [
+     0
+    ]
+   },
+   "desc": "Konbini-inspired Japanese takeaway from the Future Future team: onigiri, udon bolognese, matcha with Milo.",
+   "tags": [
+    "Hidden gem",
+    "Japanese",
+    "Takeaway"
+   ],
+   "addr": "65 Dover St, Cremorne",
+   "hrs": "Closed Sundays"
+  },
+  {
+   "id": "amiri-cafe",
+   "name": "Amiri Cafe",
+   "suburb": "CBD",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "matcha",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "Asian-inspired cafe",
+   "price": "~$12–$30",
+   "sched": {
+    "wd": [
+     585,
+     1320
+    ],
+    "we": [
+     585,
+     1320
+    ]
+   },
+   "desc": "Asian-inspired all-day cafe at QV: Kyoto omurice, wagyu sando, desserts and matcha lattes.",
+   "tags": [
+    "All-day",
+    "Matcha"
+   ],
+   "addr": "Shop R02, QV Square, Melbourne",
+   "hrs": "Daily 9:45am–10pm"
+  },
+  {
+   "id": "sulhwa",
+   "name": "Sulhwa",
+   "suburb": "CBD",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "date",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Korean dessert cafe",
+   "price": "~$12–$22",
+   "sched": "matchalate",
+   "desc": "Korean dessert cafe in the CBD.",
+   "tags": [
+    "Hidden gem",
+    "Dessert",
+    "Korean"
+   ]
+  },
+  {
+   "id": "chiaki",
+   "name": "Chiaki",
+   "suburb": "Collingwood",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "Japanese cafe & izakaya",
+   "price": "~$15–$40",
+   "sched": "allday",
+   "desc": "Japanese cafe by day (coffee and ochazuke) and izakaya by night (small plates and sake).",
+   "tags": [
+    "Hidden gem",
+    "Japanese",
+    "Izakaya"
+   ],
+   "addr": "49 Peel St, Collingwood"
+  },
+  {
+   "id": "hareruya-pantry",
+   "name": "Hareruya Pantry",
+   "suburb": "Carlton",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Japanese pantry (takeaway)",
+   "price": "~$8–$18",
+   "sched": "cafe",
+   "desc": "Takeaway Japanese pantry on Lincoln Square: bento, onigiri, sandos, karaage and house-made gelato.",
+   "tags": [
+    "Hidden gem",
+    "Japanese",
+    "Takeaway"
+   ],
+   "addr": "15-17 Lincoln Square South, Carlton"
+  },
+  {
+   "id": "bitterjoy",
+   "name": "Bitterjoy",
+   "suburb": "CBD",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Juice bar (takeaway)",
+   "price": "~$12–$18",
+   "sched": {
+    "wd": [
+     480,
+     960
+    ],
+    "we": [
+     480,
+     960
+    ]
+   },
+   "desc": "Takeaway juice bar: smoothies, acai bowls, yoghurt bowls and house-made peanut butter.",
+   "tags": [
+    "Hidden gem",
+    "Juice bar",
+    "Healthy"
+   ],
+   "addr": "Shop 4, 13 Dhanga Djeembana Walk, Melbourne",
+   "hrs": "Daily 8am–4pm"
+  },
+  {
+   "id": "higher-ground",
+   "name": "Higher Ground",
+   "suburb": "CBD",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual",
+    "brunch"
+   ],
+   "budget": "mid",
+   "cuisine": "All-day dining",
+   "price": "~$25–$55 pp",
+   "sched": "brunch",
+   "desc": "Big, airy all-day cafe in the CBD.",
+   "tags": [
+    "Viral",
+    "All-day"
+   ]
+  },
+  {
+   "id": "patricia-coffee-brewers",
+   "name": "Patricia Coffee Brewers",
+   "suburb": "CBD",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Specialty coffee",
+   "price": "~$6–$14",
+   "sched": "cafe",
+   "desc": "Standing-room specialty coffee bar in the CBD.",
+   "tags": [
+    "Coffee"
+   ]
+  },
+  {
+   "id": "st-ali",
+   "name": "ST. ALi",
+   "suburb": "South Melbourne",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "Specialty cafe",
+   "price": "~$20–$45 pp",
+   "sched": "brunch",
+   "desc": "Specialty coffee roaster and cafe in a converted warehouse.",
+   "tags": [
+    "Roastery",
+    "Warehouse"
+   ]
+  },
+  {
+   "id": "proud-mary",
+   "name": "Proud Mary",
+   "suburb": "Collingwood",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "Specialty cafe",
+   "price": "~$18–$42 pp",
+   "sched": "brunch",
+   "desc": "Collingwood cafe and coffee roaster.",
+   "tags": [
+    "Roastery"
+   ]
+  },
+  {
+   "id": "industry-beans",
+   "name": "Industry Beans",
+   "suburb": "Fitzroy",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "Specialty cafe",
+   "price": "~$20–$48 pp",
+   "sched": "brunch",
+   "desc": "Fitzroy warehouse cafe and coffee roaster.",
+   "tags": [
+    "Roastery",
+    "Warehouse"
+   ]
+  },
+  {
+   "id": "seven-seeds",
+   "name": "Seven Seeds",
+   "suburb": "Carlton",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Specialty coffee",
+   "price": "~$6–$15",
+   "sched": "cafe",
+   "desc": "Coffee roaster and cafe in a Carlton warehouse.",
+   "tags": [
+    "Roastery"
+   ]
+  },
+  {
+   "id": "lune-croissanterie",
+   "name": "Lune Croissanterie",
+   "suburb": "Fitzroy",
+   "type": "cafe",
+   "vibe": [
+    "cafe"
+   ],
+   "budget": "mid",
+   "cuisine": "Bakery",
+   "price": "~$15–$30 pp",
+   "sched": "brunch",
+   "desc": "Famous croissant bakery in Fitzroy. Expect a queue.",
+   "tags": [
+    "Viral",
+    "Bakery",
+    "Icon"
+   ]
+  },
+  {
+   "id": "market-lane-coffee",
+   "name": "Market Lane Coffee",
+   "suburb": "Prahran",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Specialty coffee",
+   "price": "~$5–$12",
+   "sched": "cafe",
+   "desc": "Specialty coffee roaster with a shop in Prahran Market.",
+   "tags": [
+    "Roastery"
+   ]
+  },
+  {
+   "id": "top-paddock",
+   "name": "Top Paddock",
+   "suburb": "Richmond",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "brunch"
+   ],
+   "budget": "mid",
+   "cuisine": "All-day cafe",
+   "price": "~$25–$50 pp",
+   "sched": "brunch",
+   "desc": "Richmond all-day cafe, known for its ricotta hotcakes.",
+   "tags": [
+    "Viral",
+    "Brunch",
+    "All-day"
+   ]
+  },
+  {
+   "id": "auction-rooms",
+   "name": "Auction Rooms",
+   "suburb": "North Melbourne",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "Specialty cafe",
+   "price": "~$20–$45 pp",
+   "sched": "brunch",
+   "desc": "Specialty cafe on Errol Street in North Melbourne.",
+   "tags": [
+    "Hidden gem",
+    "Specialty coffee"
+   ]
+  },
+  {
+   "id": "dukes-coffee-roasters",
+   "name": "Dukes Coffee Roasters",
+   "suburb": "CBD",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Specialty coffee",
+   "price": "~$5–$14",
+   "sched": "cafe",
+   "desc": "Specialty coffee roaster and cafe in the CBD.",
+   "tags": [
+    "Roastery"
+   ]
+  },
+  {
+   "id": "axil-coffee-roasters",
+   "name": "Axil Coffee Roasters",
+   "suburb": "Hawthorn",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "Specialty cafe",
+   "price": "~$18–$45 pp",
+   "sched": "brunch",
+   "desc": "Hawthorn roastery cafe on Burwood Road.",
+   "tags": [
+    "Roastery"
+   ]
+  },
+  {
+   "id": "hardware-societe",
+   "name": "Hardware Societe",
+   "suburb": "CBD",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "brunch"
+   ],
+   "budget": "mid",
+   "cuisine": "French-Australian cafe",
+   "price": "~$25–$50 pp",
+   "sched": "brunch",
+   "desc": "French-leaning all-day cafe on Hardware Lane, known for baked eggs and pastries.",
+   "tags": [
+    "Viral",
+    "French",
+    "Brunch"
+   ]
+  },
+  {
+   "id": "pillar-of-salt",
+   "name": "Pillar of Salt",
+   "suburb": "Richmond",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "All-day cafe",
+   "price": "~$22–$45 pp",
+   "sched": "brunch",
+   "desc": "Richmond all-day cafe.",
+   "tags": [
+    "Brunch"
+   ]
+  },
+  {
+   "id": "the-kettle-black",
+   "name": "The Kettle Black",
+   "suburb": "South Melbourne",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "brunch"
+   ],
+   "budget": "mid",
+   "cuisine": "Cafe",
+   "price": "~$25–$50 pp",
+   "sched": "brunch",
+   "desc": "Heritage-building cafe on Albert Road in South Melbourne.",
+   "tags": [
+    "Brunch"
+   ]
+  },
+  {
+   "id": "operator25",
+   "name": "Operator25",
+   "suburb": "CBD",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "All-day cafe",
+   "price": "~$20–$45 pp",
+   "sched": "brunch",
+   "desc": "All-day cafe in the CBD's legal district.",
+   "tags": [
+    "All-day"
+   ]
+  },
+  {
+   "id": "cibi",
+   "name": "Cibi",
+   "suburb": "Collingwood",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "Japanese cafe",
+   "price": "~$22–$45 pp",
+   "sched": "brunch",
+   "desc": "Japanese cafe-and-store in Collingwood, serving set breakfasts.",
+   "tags": [
+    "Hidden gem",
+    "Japanese"
+   ]
+  },
+  {
+   "id": "florian",
+   "name": "Florian",
+   "suburb": "Carlton North",
+   "type": "cafe",
+   "vibe": [
+    "cafe",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "European-inspired cafe",
+   "price": "~$20–$42 pp",
+   "sched": {
+    "wd": [
+     450,
+     900
+    ],
+    "we": [
+     480,
+     900
+    ]
+   },
+   "desc": "European-inspired breakfast and lunch: eggs Florian, tartines, pastries and Allpress coffee.",
+   "tags": [
+    "Hidden gem",
+    "European",
+    "Brunch"
+   ],
+   "addr": "617 Rathdowne St, Carlton North",
+   "hrs": "Mon–Fri 7:30am–3pm · Sat–Sun 8am–3pm"
+  }
+ ]
+}
