@@ -173,7 +173,7 @@ var EMAIL_FIELD = 'email_address';
     }).then(function (r) {
       return r.json().catch(function () { return {}; }).then(function (j) { return { http: r.status, j: j }; });
     }).then(function (res) {
-      if (window.console) console.log('[nomlette] Kit replied', res.http, res.j);
+      if (window.console) console.log('[nomlette] Kit replied ' + res.http + ' ' + JSON.stringify(res.j));
       if (res.http < 300 && (!res.j.status || res.j.status === 'success' || res.j.status === 'quarantined')) { ok(); return; }
       var msg = (res.j.errors && (res.j.errors.messages || []).join(' ')) || '';
       say('That didn’t go through' + (msg ? ': ' + msg.replace(/\.?\s*$/, '.') : '.') + ' Please check your email and try again.', 'err'); done();
