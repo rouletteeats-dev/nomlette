@@ -47,10 +47,10 @@ a{color:inherit}
 h1{font-size:clamp(84px,15.5vw,220px);line-height:.86;margin:20px 0 24px;text-wrap:balance}
 .sub{max-width:470px;margin:0 auto 34px;font-size:clamp(16px,1.6vw,18px);line-height:1.5}
 .join{max-width:520px;width:100%;margin:0 auto;display:flex;gap:6px;background:var(--cream);border-radius:999px;padding:6px;box-shadow:0 18px 44px rgba(0,0,0,.4)}
-.join input[type=email]{flex:1;min-width:0;border:0;background:transparent;color:var(--ink);padding:0 8px 0 20px;font-size:16px;border-radius:999px}
+.join input[type=email]{flex:1;min-width:0;min-height:60px;border:0;background:transparent;color:var(--ink);padding:0 8px 0 22px;font-size:17px;border-radius:999px}
 .join input[type=email]::placeholder{color:#6B5446;opacity:1}
 .join input[type=email]:focus-visible{outline:2px solid var(--brown);outline-offset:0}
-.join button{flex:none;background:var(--brown);color:var(--cream);border:0;border-radius:999px;height:52px;padding:0 26px;font-weight:600;font-size:13.5px;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
+.join button{flex:none;background:var(--brown);color:var(--cream);border:0;border-radius:999px;height:60px;padding:0 26px;font-weight:600;font-size:13.5px;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
 .join button:hover{background:var(--brown-d)}
 .join button:focus-visible{outline-color:var(--ink)}
 .join button[disabled]{opacity:.7;cursor:default}
@@ -80,8 +80,8 @@ h1{font-size:clamp(84px,15.5vw,220px);line-height:.86;margin:20px 0 24px;text-wr
 @media (max-width:760px){
   .steps{grid-template-columns:1fr;gap:24px}
   .join{flex-direction:column;border-radius:24px;padding:8px}
-  .join input[type=email]{height:52px;text-align:center;padding:0 12px}
-  .join button{width:100%}
+  .join input[type=email]{height:62px;text-align:center;padding:0 12px}
+  .join button{width:100%;height:58px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
@@ -140,6 +140,7 @@ h1{font-size:clamp(84px,15.5vw,220px);line-height:.86;margin:20px 0 24px;text-wr
   </div>
 </footer>
 
+<iframe name="kit-frame" title="" hidden style="display:none"></iframe>
 <script>
 /* ---------------------------------------------------------------------------
    KIT SIGN-UP: KIT_FORM_ID is the number in your Kit form's address
@@ -162,15 +163,27 @@ var EMAIL_FIELD = 'email_address';
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(value)) { say('Please enter a valid email address.', 'err'); email.focus(); return; }
     if (document.getElementById('website').value) { say('Thanks! You’re on the list.', 'ok'); form.reset(); return; } // bots only
     if (!SIGNUP_URL) { say('Sign-ups aren’t switched on yet, so your email was not saved. Please check back soon.', 'err'); return; }
-    var data = new FormData();
-    data.append(EMAIL_FIELD, value);
     btn.disabled = true; btn.textContent = 'Joining…';
-    fetch(SIGNUP_URL, { method: 'POST', body: data, mode: 'no-cors' }).then(function () {
-      say('Thanks, you’re on the list! If we email you a confirmation link, tap it to finish joining.', 'ok');
-      form.reset();
-    }).catch(function () {
-      say('Something went wrong and your email was not saved. Please try again in a moment.', 'err');
-    }).then(function () { btn.disabled = false; btn.textContent = 'Join the waitlist'; });
+    function done() { btn.disabled = false; btn.textContent = 'Join the waitlist'; }
+    function ok() { say('Thanks, you’re on the list! Check your inbox (and spam) for a confirmation email from nomlette.', 'ok'); form.reset(); done(); }
+    fetch(SIGNUP_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({ email_address: value })
+    }).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (j) { return { http: r.status, j: j }; });
+    }).then(function (res) {
+      if (window.console) console.log('[nomlette] Kit replied', res.http, res.j);
+      if (res.http < 300 && (!res.j.status || res.j.status === 'success' || res.j.status === 'quarantined')) { ok(); return; }
+      var msg = (res.j.errors && (res.j.errors.messages || []).join(' ')) || '';
+      say('That didn’t go through' + (msg ? ': ' + msg.replace(/\.?\s*$/, '.') : '.') + ' Please check your email and try again.', 'err'); done();
+    }).catch(function (err) {
+      // Kit didn't answer the request: fall back to a normal form post in a hidden frame
+      if (window.console) console.log('[nomlette] fetch failed, using form post', err);
+      var f = document.createElement('form'); f.method = 'post'; f.action = SIGNUP_URL; f.target = 'kit-frame'; f.style.display = 'none';
+      var i = document.createElement('input'); i.name = EMAIL_FIELD; i.value = value; f.appendChild(i);
+      document.body.appendChild(f); f.submit(); setTimeout(function () { f.remove(); ok(); }, 1200);
+    });
   });
 }());
 </script>
