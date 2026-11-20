@@ -825,7 +825,10 @@
     "Matcha",
     "Japanese"
    ],
-   "addr": "317 Swanston St, Melbourne"
+   "addr": "317 Swanston St, Melbourne",
+   "photo": "hikari.jpg",
+   "credit": "Photo: @hikarilifeau",
+   "creditUrl": "https://www.instagram.com/hikarilifeau/"
   },
   {
    "id": "matcha-kobo",
@@ -1462,7 +1465,10 @@
     "New 2026"
    ],
    "addr": "25 Crossley St, Melbourne",
-   "new": true
+   "new": true,
+   "photo": "cote-basque.jpg",
+   "credit": "Photo: @cote.basque.restaurant",
+   "creditUrl": "https://www.instagram.com/cote.basque.restaurant/"
   },
   {
    "id": "pho-le",
@@ -1524,7 +1530,10 @@
     "Bakery"
    ],
    "addr": "29 Hardware Ln, Melbourne",
-   "new": true
+   "new": true,
+   "photo": "panaderia-serai.jpg",
+   "credit": "Photo: @panaderia.serai",
+   "creditUrl": "https://www.instagram.com/panaderia.serai/"
   },
   {
    "id": "smwre-coffee",
@@ -1545,7 +1554,10 @@
     "Coffee"
    ],
    "addr": "380 La Trobe St, Melbourne",
-   "new": true
+   "new": true,
+   "photo": "smwre-coffee.jpg",
+   "credit": "Photo: @smwre.coffee",
+   "creditUrl": "https://www.instagram.com/smwre.coffee/"
   },
   {
    "id": "bloomwood",
@@ -1610,7 +1622,10 @@
     "Library"
    ],
    "addr": "State Library Victoria, La Trobe St, Melbourne",
-   "new": true
+   "new": true,
+   "photo": "biblio.jpg",
+   "credit": "Photo: @biblio__cafe",
+   "creditUrl": "https://www.instagram.com/biblio__cafe/"
   },
   {
    "id": "rockpool-bar-grill",
@@ -1794,7 +1809,10 @@
     "Coffee"
    ],
    "addr": "93 Moor St, Fitzroy",
-   "new": true
+   "new": true,
+   "photo": "homebody-union.jpg",
+   "credit": "Photo: @homebodyunion",
+   "creditUrl": "https://www.instagram.com/homebodyunion/"
   },
   {
    "id": "udon-izakaya-tanukiya",
