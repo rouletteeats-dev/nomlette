@@ -1044,7 +1044,10 @@
     "Healthy"
    ],
    "addr": "Shop 4, 13 Dhanga Djeembana Walk, Melbourne",
-   "hrs": "Daily 8am–4pm"
+   "hrs": "Daily 8am–4pm",
+   "photo": "bitterjoy.jpg",
+   "credit": "Photo: Bitterjoy (@bitterjoyau)",
+   "creditUrl": "https://www.instagram.com/bitterjoyau/"
   },
   {
    "id": "higher-ground",
@@ -3181,23 +3184,61 @@
   },
   {
    "id": "captain-baxter",
-   "name": "Captain Baxter",
+   "name": "Baxter St Kilda",
    "suburb": "St Kilda",
    "type": "rest",
    "vibe": [
+    "date",
     "group",
-    "casual"
+    "bougie"
    ],
    "budget": "splash",
-   "cuisine": "Beach club",
-   "price": "~$50 pp shared",
-   "sched": "barlate",
-   "desc": "Summer beach club with a rooftop deck, shared plates and weekend DJs.",
+   "cuisine": "Australian seafood",
+   "price": "~$75+ pp",
+   "sched": {
+    "byDay": {
+     "0": [
+      [
+       720,
+       1440
+      ]
+     ],
+     "1": [],
+     "2": [],
+     "3": [
+      [
+       1020,
+       1440
+      ]
+     ],
+     "4": [
+      [
+       1020,
+       1440
+      ]
+     ],
+     "5": [
+      [
+       720,
+       1440
+      ]
+     ],
+     "6": [
+      [
+       720,
+       1440
+      ]
+     ]
+    }
+   },
+   "desc": "Beachfront restaurant and bar at the St Kilda Sea Baths: Australian seafood and dishes cooked over coals, made for sharing, plus cocktails, 75+ wines, a beach terrace and cabanas for groups.",
    "tags": [
     "Beachside",
-    "Rooftop"
+    "Seafood",
+    "Waterfront"
    ],
-   "addr": "10–18 Jacka Blvd, St Kilda"
+   "addr": "10–18 Jacka Blvd, St Kilda",
+   "hrs": "Wed–Thu 5pm–late · Fri–Sun 12pm–late"
   },
   {
    "id": "elwood-bathers",
