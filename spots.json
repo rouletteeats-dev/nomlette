@@ -3424,7 +3424,9 @@
    "free": true,
    "url": "https://whatson.melbourne.vic.gov.au/things-to-do/cachivaches-latin-market",
    "desc": "Latin American food, music and art from more than 50 Latin-owned businesses.",
-   "addr": "Queen St, Melbourne"
+   "addr": "Queen St, Melbourne",
+   "photo": "cachivaches.jpg",
+   "credit": "Photo: Cachivaches Latin Market"
   },
   {
    "id": "heritage-vine-under-the-atrium-dinner-series",
@@ -3458,7 +3460,9 @@
     "2026-11-21",
     "2026-12-19"
    ],
-   "addr": "2/50 Elizabeth St, Kensington"
+   "addr": "2/50 Elizabeth St, Kensington",
+   "photo": "younghusband.jpg",
+   "credit": "Photo: Rose Street Market (@therosestmarket)"
   },
   {
    "id": "the-christmas-night-market",
