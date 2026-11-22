@@ -1916,7 +1916,9 @@
     "New 2026"
    ],
    "addr": "Smith St, Collingwood",
-   "new": true
+   "new": true,
+   "photo": "little-house.jpg",
+   "credit": "Photo: Little House"
   },
   {
    "id": "bar-familiar",
@@ -2087,7 +2089,9 @@
     "Japanese"
    ],
    "addr": "Prahran Market, 163 Commercial Rd, South Yarra",
-   "new": true
+   "new": true,
+   "photo": "matsuyama.jpg",
+   "credit": "Photo: Matsuyama"
   },
   {
    "id": "aftermath",
@@ -2108,7 +2112,9 @@
     "Diner"
    ],
    "addr": "154B Greville St, Prahran",
-   "new": true
+   "new": true,
+   "photo": "aftermath.jpg",
+   "credit": "Photo: Aftermath"
   },
   {
    "id": "fannys-sannys",
