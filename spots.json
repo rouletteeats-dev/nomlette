@@ -2267,7 +2267,9 @@
     "New 2026"
    ],
    "addr": "Koornang Rd, Carnegie",
-   "new": true
+   "new": true,
+   "photo": "tyga.jpg",
+   "credit": "Photo: Tyga"
   },
   {
    "id": "gaon-gamasot-gomtang",
