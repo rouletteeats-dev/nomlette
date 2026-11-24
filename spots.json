@@ -3767,7 +3767,9 @@
    "free": false,
    "url": "https://whatson.melbourne.vic.gov.au/things-to-do/vision-australias-carols-by-candlelight",
    "desc": "Vision Australia's Christmas Eve concert with performers and choirs.",
-   "addr": "Linlithgow Ave, Melbourne"
+   "addr": "Linlithgow Ave, Melbourne",
+   "photo": "vision-australias-carols-by-candlelight.jpg",
+   "credit": "Photo: Carols by Candlelight (Vision Australia)"
   },
   {
    "id": "new-years-eve",
