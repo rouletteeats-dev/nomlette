@@ -3646,7 +3646,9 @@
    "price": "Free",
    "free": true,
    "url": "https://whatson.melbourne.vic.gov.au/things-to-do/with-one-voice-city-square-carols",
-   "desc": "Free community Christmas carols in City Square."
+   "desc": "Free community Christmas carols in City Square.",
+   "photo": "with-one-voice-city-square-carols.jpg",
+   "credit": "Photo: With One Voice (Creativity Australia)"
   },
   {
    "id": "crown-christmas-river-show",
