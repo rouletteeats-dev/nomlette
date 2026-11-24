@@ -1628,27 +1628,6 @@
    "creditUrl": "https://www.instagram.com/biblio__cafe/"
   },
   {
-   "id": "rockpool-bar-grill",
-   "name": "Rockpool Bar & Grill",
-   "suburb": "Southbank",
-   "type": "rest",
-   "vibe": [
-    "date",
-    "bougie",
-    "send"
-   ],
-   "budget": "send",
-   "cuisine": "Steakhouse",
-   "price": "~$130–$200 pp",
-   "sched": "ld",
-   "desc": "Steakhouse at Crown known for dry-aged beef and a very large wine list.",
-   "tags": [
-    "Steakhouse",
-    "Fine dining"
-   ],
-   "addr": "Crown, 8 Whiteman St, Southbank"
-  },
-  {
    "id": "nobu-melbourne",
    "name": "Nobu Melbourne",
    "suburb": "Southbank",
