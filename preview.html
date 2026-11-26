@@ -1018,7 +1018,7 @@ var BASE_SPOTS = (BASE.spots || []).slice();
 var F = { vibe: 'any', budget: 'any', open: false, subs: [], tag: '', q: '' };
 /* phones show fewer cards at a time so the other sections stay close */
 function isPhone() { try { return window.matchMedia('(max-width: 760px)').matches; } catch (e) { return false; } }
-function pageSize() { return isPhone() ? 4 : 12; }
+function pageSize() { return isPhone() ? 4 : 6; }
 function evPageSize() { return isPhone() ? 4 : 8; }
 var PAGE = pageSize(), LAST = [], CACHE = null, CACHE_BY = {}, selId = null;
 var FAVS = store.get('nom-favs', []); if (!Array.isArray(FAVS)) FAVS = [];
