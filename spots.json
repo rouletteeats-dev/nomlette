@@ -3744,7 +3744,8 @@
    "price": "Free",
    "free": true,
    "url": "https://whatson.melbourne.vic.gov.au/things-to-do/christmas-docklands-waterfront-farmers-market",
-   "desc": "A Christmas edition of the Docklands farmers' market."
+   "desc": "A Christmas edition of the Docklands farmers' market.",
+   "photo": "christmas-docklands-waterfront-farmers-market.jpg"
   },
   {
    "id": "vision-australias-carols-by-candlelight",
