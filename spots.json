@@ -3704,20 +3704,6 @@
    "desc": "A free Christmas carnival by the river at Birrarung Marr."
   },
   {
-   "id": "koorie-krismas",
-   "title": "Koorie Krismas",
-   "cat": "Christmas",
-   "start": "2026-12-12",
-   "end": "2026-12-12",
-   "when": "Check the event page for times",
-   "venue": "Fed Square",
-   "area": "CBD",
-   "price": "Free",
-   "free": true,
-   "url": "https://whatson.melbourne.vic.gov.au/things-to-do/koorie-krismas",
-   "desc": "A free family Christmas celebration at Fed Square."
-  },
-  {
    "id": "ngv-triennial",
    "title": "NGV Triennial",
    "cat": "Arts",
