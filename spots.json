@@ -3671,25 +3671,6 @@
    "desc": "A free Christmas show on the Yarra River at Crown."
   },
   {
-   "id": "german-christmas-market",
-   "title": "German Christmas Market",
-   "cat": "Christmas",
-   "start": "2026-12-06",
-   "end": "2026-12-13",
-   "when": "Sun 6 & Sun 13 Dec · 12pm–5pm",
-   "venue": "Park Hyatt Melbourne ballroom",
-   "area": "East Melbourne",
-   "price": "Free · book a free ticket",
-   "free": true,
-   "url": "https://whatson.melbourne.vic.gov.au/things-to-do/german-christmas-market",
-   "desc": "German food and drinks, handmade gifts, live music and activities for kids.",
-   "days": [
-    "2026-12-06",
-    "2026-12-13"
-   ],
-   "addr": "Parliament Pl, Melbourne"
-  },
-  {
    "id": "christmas-carnival",
    "title": "Christmas Carnival",
    "cat": "Christmas",
