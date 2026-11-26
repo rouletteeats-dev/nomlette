@@ -3816,7 +3816,9 @@
    "price": "From $25",
    "free": false,
    "url": "https://whatson.melbourne.vic.gov.au/things-to-do/melbourne-food-and-wine-festival",
-   "desc": "17 days of food and wine events, opening with the World's Longest Lunch."
+   "desc": "17 days of food and wine events, opening with the World's Longest Lunch.",
+   "photo": "melbourne-food-and-wine-festival.jpg",
+   "credit": "Photo: @melbfoodandwine"
   },
   {
    "id": "the-festival-of-korean-fried-chicken",
