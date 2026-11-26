@@ -3608,7 +3608,9 @@
    "free": false,
    "url": "https://whatson.melbourne.vic.gov.au/things-to-do/moonlight-cinema",
    "desc": "Outdoor summer cinema. Bring a picnic, or buy food and drinks on site.",
-   "addr": "Birdwood Ave, South Yarra"
+   "addr": "Birdwood Ave, South Yarra",
+   "photo": "moonlight-cinema.jpg",
+   "credit": "Photo: Moonlight Cinema"
   },
   {
    "id": "the-big-design-market-2026",
