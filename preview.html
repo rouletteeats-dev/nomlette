@@ -1110,7 +1110,7 @@ function chipText(s) {
   return s.tags[0] || TYPE_LABEL[s.type];
 }
 /* Temporary artwork for spots that don't have their own photo yet (same picture each time for a spot) */
-var PLACEHOLDERS = ['placeholder-1.jpg', 'placeholder-2.jpg', 'placeholder-3.jpg', 'placeholder-4.jpg', 'placeholder-5.jpg'];
+var PLACEHOLDERS = ['placeholder-art-1.jpg', 'placeholder-art-2.jpg', 'placeholder-art-3.jpg', 'placeholder-art-4.jpg', 'placeholder-art-5.jpg', 'placeholder-art-6.jpg', 'placeholder-art-7.jpg', 'placeholder-art-8.jpg'];
 function photoHTML(s) {
   var u = safeUrl(s.photo) || PLACEHOLDERS[hash('ph' + (s.id || s.name)) % PLACEHOLDERS.length];
   return u ? '<img class="photo" src="' + esc(u) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">' : '';
