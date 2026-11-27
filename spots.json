@@ -179,6 +179,10 @@
   "Port Melbourne": [
    -37.839,
    144.942
+  ],
+  "Cranbourne West": [
+   -38.099,
+   145.258
   ]
  },
  "popular": [
@@ -1135,6 +1139,7 @@
    "suburb": "Fitzroy",
    "type": "cafe",
    "vibe": [
+    "laptop",
     "cafe",
     "casual"
    ],
@@ -1144,6 +1149,7 @@
    "sched": "brunch",
    "desc": "Fitzroy warehouse cafe and coffee roaster.",
    "tags": [
+    "Laptop friendly",
     "Roastery",
     "Warehouse"
    ]
@@ -1567,6 +1573,7 @@
    "suburb": "CBD",
    "type": "cafe",
    "vibe": [
+    "laptop",
     "cafe",
     "matcha",
     "casual"
@@ -1577,6 +1584,7 @@
    "sched": "cafe",
    "desc": "Second city spot for the cult bakery: shio pan, miso banoffee danish, coffee and matcha.",
    "tags": [
+    "Laptop friendly",
     "Viral",
     "Bakery",
     "Matcha"
@@ -2867,6 +2875,7 @@
    "suburb": "Brunswick",
    "type": "cafe",
    "vibe": [
+    "laptop",
     "cafe"
    ],
    "budget": "cheap",
@@ -2875,6 +2884,7 @@
    "sched": "cafe",
    "desc": "Japanese-inspired cafe with pour-overs from Japanese roasters, plus Japanese sweets and sandos.",
    "tags": [
+    "Laptop friendly",
     "Hidden gem",
     "Japanese",
     "Coffee"
@@ -3397,6 +3407,264 @@
    ],
    "addr": "11 Union St, South Melbourne",
    "new": true
+  },
+  {
+   "id": "midday-workspace",
+   "name": "The Midday Workspace",
+   "suburb": "Carlton",
+   "type": "cafe",
+   "vibe": [
+    "laptop",
+    "cafe",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Bagels & coffee",
+   "price": "~$8–$20",
+   "sched": "cafe",
+   "desc": "Tinee Su's daytime cafe and student workspace in the 1890s Carlton United Brewery building, built around bagels.",
+   "tags": [
+    "Laptop friendly",
+    "New 2026",
+    "Bagels"
+   ],
+   "new": true,
+   "addr": "Former Carlton United Brewery building, Carlton"
+  },
+  {
+   "id": "sips-corner-cafe",
+   "name": "Sips Corner Cafe",
+   "suburb": "Collingwood",
+   "type": "cafe",
+   "vibe": [
+    "laptop",
+    "cafe",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Toasties & coffee",
+   "price": "~$6–$15",
+   "sched": "cafe",
+   "desc": "Corner cafe on Johnston Street for croissant toasties, tuna melts and caramelised banana iced lattes.",
+   "tags": [
+    "Laptop friendly",
+    "Hidden gem",
+    "Sandwiches"
+   ],
+   "addr": "141 Johnston St, Collingwood",
+   "lat": -37.7985,
+   "lng": 144.987
+  },
+  {
+   "id": "the-standardx",
+   "name": "The StandardX",
+   "suburb": "Fitzroy",
+   "type": "cafe",
+   "vibe": [
+    "laptop",
+    "cafe",
+    "casual",
+    "bougie"
+   ],
+   "budget": "mid",
+   "cuisine": "Hotel lobby & bistro",
+   "price": "~$15–$40",
+   "sched": "allday",
+   "desc": "Fitzroy hotel with a big communal lobby table made for working, plus all-day Bistro X.",
+   "tags": [
+    "Laptop friendly",
+    "Hotel"
+   ],
+   "addr": "62 Rose St, Fitzroy",
+   "lat": -37.799,
+   "lng": 144.9815
+  },
+  {
+   "id": "coffee-cat",
+   "name": "Coffee Cat",
+   "suburb": "Cranbourne West",
+   "type": "cafe",
+   "vibe": [
+    "laptop",
+    "cafe",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Cafe",
+   "price": "~$6–$18",
+   "sched": "cafe",
+   "desc": "Local cafe off Gwen Road in Cranbourne West, a handy south-east spot to settle in with a laptop.",
+   "tags": [
+    "Laptop friendly",
+    "Hidden gem"
+   ],
+   "addr": "40 Gwen Rd, Cranbourne West",
+   "lat": -38.089,
+   "lng": 145.247
+  },
+  {
+   "id": "manchester-press",
+   "name": "Manchester Press",
+   "suburb": "CBD",
+   "type": "cafe",
+   "vibe": [
+    "laptop",
+    "cafe",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "Bagels & brunch",
+   "price": "~$12–$25",
+   "sched": {
+    "byDay": {
+     "0": [],
+     "1": [
+      [
+       420,
+       1020
+      ]
+     ],
+     "2": [
+      [
+       420,
+       1020
+      ]
+     ],
+     "3": [
+      [
+       420,
+       1020
+      ]
+     ],
+     "4": [
+      [
+       420,
+       1020
+      ]
+     ],
+     "5": [
+      [
+       420,
+       1020
+      ]
+     ],
+     "6": [
+      [
+       540,
+       1020
+      ]
+     ]
+    }
+   },
+   "desc": "Laneway warehouse cafe in a former printing press, known for its bagels and a huge communal table.",
+   "tags": [
+    "Laptop friendly",
+    "Hidden gem",
+    "Bagels"
+   ],
+   "addr": "8 Rankins Lane, Melbourne",
+   "lat": -37.813,
+   "lng": 144.9605,
+   "hrs": "Mon–Fri 7am–5pm · Sat 9am–5pm · Sun closed"
+  },
+  {
+   "id": "workshop-brothers-southbank",
+   "name": "Workshop Brothers",
+   "suburb": "Southbank",
+   "type": "cafe",
+   "vibe": [
+    "laptop",
+    "cafe",
+    "casual",
+    "brunch"
+   ],
+   "budget": "mid",
+   "cuisine": "Asian-inspired brunch",
+   "price": "~$15–$35 pp",
+   "sched": "brunch",
+   "desc": "Art deco-inspired Riverside Quay cafe with house-roasted coffee and Asian-influenced brunch.",
+   "tags": [
+    "Laptop friendly",
+    "Brunch",
+    "Roastery"
+   ],
+   "addr": "2 Riverside Quay, Southbank",
+   "lat": -37.8205,
+   "lng": 144.962
+  },
+  {
+   "id": "time-after-time",
+   "name": "Time After Time",
+   "suburb": "CBD",
+   "type": "cafe",
+   "vibe": [
+    "laptop",
+    "cafe",
+    "casual"
+   ],
+   "budget": "cheap",
+   "cuisine": "Korean bakery",
+   "price": "~$6–$15",
+   "sched": "cafe",
+   "desc": "CBD bakery cafe known for inky-black charcoal croissants inspired by Seoul's viennoiseries.",
+   "tags": [
+    "Laptop friendly",
+    "Bakery",
+    "Korean",
+    "Viral"
+   ],
+   "addr": "7 Howey Place, Melbourne",
+   "lat": -37.8155,
+   "lng": 144.9655
+  },
+  {
+   "id": "ondo-city",
+   "name": "Ondo",
+   "suburb": "CBD",
+   "type": "cafe",
+   "vibe": [
+    "laptop",
+    "cafe",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "Korean cafe",
+   "price": "~$18–$35 pp",
+   "sched": "cafe",
+   "desc": "Korean cafe serving hard-to-find Korean dishes, bansang-style sets and specialty drinks.",
+   "tags": [
+    "Laptop friendly",
+    "Korean"
+   ],
+   "addr": "115 Little Lonsdale St, Melbourne",
+   "lat": -37.8115,
+   "lng": 144.9695
+  },
+  {
+   "id": "cafe-carlton",
+   "name": "Cafe Carlton",
+   "suburb": "Carlton",
+   "type": "cafe",
+   "vibe": [
+    "laptop",
+    "cafe",
+    "matcha",
+    "casual"
+   ],
+   "budget": "mid",
+   "cuisine": "Matcha & sandwiches",
+   "price": "~$8–$25",
+   "sched": "cafe",
+   "desc": "Halal Swanston Street cafe with a standout matcha menu, Turkish bread baked in-house and big sandwiches.",
+   "tags": [
+    "Laptop friendly",
+    "Matcha",
+    "Halal",
+    "Sandwiches"
+   ],
+   "addr": "566 Swanston St, Carlton",
+   "lat": -37.8025,
+   "lng": 144.9635
   }
  ],
  "events": [
