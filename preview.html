@@ -1109,8 +1109,10 @@ function chipText(s) {
   for (var i = 0; i < s.tags.length; i++) { var l = s.tags[i].toLowerCase(); if (l === 'viral' || l === 'hidden gem') return s.tags[i]; }
   return s.tags[0] || TYPE_LABEL[s.type];
 }
+/* Temporary artwork for spots that don't have their own photo yet (same picture each time for a spot) */
+var PLACEHOLDERS = ['placeholder-1.jpg', 'placeholder-2.jpg', 'placeholder-3.jpg', 'placeholder-4.jpg', 'placeholder-5.jpg'];
 function photoHTML(s) {
-  var u = safeUrl(s.photo);
+  var u = safeUrl(s.photo) || PLACEHOLDERS[hash('ph' + (s.id || s.name)) % PLACEHOLDERS.length];
   return u ? '<img class="photo" src="' + esc(u) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">' : '';
 }
 function cardHTML(s, st, o) {
