@@ -234,9 +234,7 @@
    "tags": [
     "European",
     "Date night"
-   ],
-   "photo": "harriot.jpg",
-   "credit": "Photo: Harriot"
+   ]
   },
   {
    "id": "roma-ristorante",
@@ -279,9 +277,7 @@
     "Rooftop",
     "New 2025"
    ],
-   "new": true,
-   "photo": "cleo.jpg",
-   "credit": "Photo: Cleo"
+   "new": true
   },
   {
    "id": "yiaga",
@@ -445,9 +441,7 @@
     "Viral",
     "Share plates",
     "Groups"
-   ],
-   "photo": "chinchin.jpg",
-   "credit": "Photo: Chin Chin"
+   ]
   },
   {
    "id": "tipo-00",
@@ -485,9 +479,7 @@
    "tags": [
     "Fine dining",
     "European"
-   ],
-   "photo": "gimlet.jpg",
-   "credit": "Photo: Gimlet"
+   ]
   },
   {
    "id": "grill-americano",
@@ -506,9 +498,7 @@
    "desc": "Steakhouse in the CBD.",
    "tags": [
     "Steakhouse"
-   ],
-   "photo": "grillamericano.jpg",
-   "credit": "Photo: Grill Americano"
+   ]
   },
   {
    "id": "supernormal",
@@ -628,9 +618,7 @@
     "Woodfire",
     "Modern Australian"
    ],
-   "hrs": "Lunch Tue–Sat 12–3pm · Dinner Mon–Sat 5:30–10pm",
-   "photo": "aru.jpg",
-   "credit": "Photo: Aru"
+   "hrs": "Lunch Tue–Sat 12–3pm · Dinner Mon–Sat 5:30–10pm"
   },
   {
    "id": "hanoi-hannah",
@@ -669,9 +657,7 @@
    "tags": [
     "All-day",
     "Wine bar"
-   ],
-   "photo": "cumulusinc.jpg",
-   "credit": "Photo: Cumulus Inc"
+   ]
   },
   {
    "id": "mr-miyagi",
@@ -739,9 +725,7 @@
     "Dessert"
    ],
    "addr": "7/259 Collins St, Melbourne",
-   "hrs": "Mon–Fri 8am–5pm · Sat–Sun 10am–4pm",
-   "photo": "balibola.jpg",
-   "credit": "Photo: Balibola"
+   "hrs": "Mon–Fri 8am–5pm · Sat–Sun 10am–4pm"
   },
   {
    "id": "matcha-mate",
@@ -1159,9 +1143,7 @@
     "Viral",
     "Bakery",
     "Icon"
-   ],
-   "photo": "lune.jpg",
-   "credit": "Photo: Lune Croissanterie"
+   ]
   },
   {
    "id": "market-lane-coffee",
