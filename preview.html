@@ -1824,7 +1824,7 @@ function upcomingEvents() {
 }
 function eventCard(e, t) {
   var url = safeLink(e.url), when = evDateLabel(e, t);
-  var ph = safeUrl(e.photo);
+  var ph = safeUrl(e.photo) || PLACEHOLDERS[hash('ph' + (e.id || e.title)) % PLACEHOLDERS.length];
   var inner = '<div class="ev-top' + (ph ? ' has-ph' : '') + '" style="--pb:' + (EV_ART[e.cat] || EV_ART.Other) + '">' + (ph ? '<img class="ev-ph" src="' + esc(ph) + '" alt="" loading="lazy" decoding="async">' : '') + '<span class="ev-cat">' + esc(e.cat || 'Event') + '</span>' +
     (e.free ? '<span class="ev-free">Free</span>' : '') + '<p class="ev-date">' + esc(when) + '</p></div>' +
     '<div class="ev-body"><h3 class="ev-title">' + esc(e.title) + '</h3>' +
