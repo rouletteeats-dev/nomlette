@@ -190,7 +190,6 @@
   "naau",
   "lune-croissanterie",
   "gimlet",
-  "embla",
   "higher-ground",
   "tipo-00",
   "supernormal"
@@ -368,28 +367,6 @@
     "Malaysian",
     "Groups"
    ]
-  },
-  {
-   "id": "embla",
-   "name": "Embla",
-   "suburb": "CBD",
-   "type": "rest",
-   "vibe": [
-    "date",
-    "bougie",
-    "casual"
-   ],
-   "budget": "send",
-   "cuisine": "Wine bar & woodfire",
-   "price": "~$70–$110 pp",
-   "sched": "dinner",
-   "desc": "Wine bar and woodfire kitchen on Russell Street.",
-   "tags": [
-    "Wine bar",
-    "Woodfire"
-   ],
-   "photo": "embla.jpg",
-   "credit": "Photo: Embla"
   },
   {
    "id": "marmelo",
