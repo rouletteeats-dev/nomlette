@@ -2718,7 +2718,9 @@
     "New 2026"
    ],
    "addr": "Grandview Hotel, 429 Heidelberg Rd, Fairfield",
-   "new": true
+   "new": true,
+   "photo": "sama.jpg",
+   "credit": "Photo: Sama"
   },
   {
    "id": "lucci-eatery",
