@@ -3402,7 +3402,9 @@
    ],
    "addr": "141 Johnston St, Collingwood",
    "lat": -37.7985,
-   "lng": 144.987
+   "lng": 144.987,
+   "photo": "sips-corner-cafe.jpg",
+   "credit": "Photo: Sips Corner Cafe"
   },
   {
    "id": "the-standardx",
