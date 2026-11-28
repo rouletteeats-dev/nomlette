@@ -3095,7 +3095,9 @@
     "New 2026"
    ],
    "addr": "3/130 Victoria St, Seddon",
-   "new": true
+   "new": true,
+   "photo": "august.jpg",
+   "credit": "Photo: august"
   },
   {
    "id": "sebastian",
